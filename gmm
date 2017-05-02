@@ -13,15 +13,15 @@ UI_WHITE="\033[1;37m"
 UI_NONE="\033[0m"
 
 function ok {
-  printf "${UI_NONE}[${UI_GREEN}OK${UI_NONE}] $@\r\n"
+  printf "${UI_NONE}[${UI_GREEN}  OK  ${UI_NONE}] $@\r\n"
 }
 
 function info {
-  printf "${UI_NONE}[${UI_BLUE}INFO${UI_NONE}] $@\n"
+  printf "${UI_NONE}[${UI_BLUE} INFO ${UI_NONE}] $@\n"
 }
 
 function fail {
-  printf "${UI_NONE}[${UI_RED}FAIL${UI_NONE}] $@\n"
+  printf "${UI_NONE}[${UI_RED} FAIL ${UI_NONE}] $@\n"
 }
 
 function assert {
